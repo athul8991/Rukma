@@ -32,7 +32,7 @@
 }
 
 .content{
-    /* width: 100%; */
+    width: 100%;
     /* height: 300px; */
     /* background: gray; */
     color: rgb(9, 80, 3);
@@ -53,7 +53,7 @@
     margin: auto;
 }
 .content img{
-    width: 80vh;
+    width:100%;
     margin: auto;
 }
 .parallax_b{
