@@ -19,7 +19,12 @@
     position: relative;
 } */
 .nav-link{
-    color: white;
+    color:rgb(3, 165, 27);
+    font-weight: 900;
+    transition: color 1s;
+}
+.nav-link:hover{
+    color:rgb(255, 255, 255);
 }
 .parallax_bg{
     height: 100vh;
@@ -187,28 +192,24 @@
         width: 100%;
     }
     .navbar{
-        background: rgb(255, 255, 255);
-        color: darkgreen;
-        z-index: 1;
-        color: darkgreen;
-        position: sticky;
+       text-align: center;
     }
-    .navbar-toggler{
+    /* .navbar-toggler{
         /* color: black; */
-        background: rgb(250, 246, 246);
-    }
-    span .navbar-toggler-icon{
+        /* background: rgb(250, 246, 246); 
+    } */
+    /* span .navbar-toggler-icon{
         color: darkgreen;
         background: green;
-    }
-    .navbarNav{
+    } */
+    /* .navbarNav{
         z-index: 2;
         background:red ;
-    }
+    } */
     
-    .nav-link{
+    /* .nav-link{
         color: gray;
-    }
+    } */
     .pricing-box{
         max-width: 300px;
         margin: auto;
