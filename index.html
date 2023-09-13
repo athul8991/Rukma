@@ -5,7 +5,7 @@
 <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
 <meta name="description" content="Rukma DEMO page">
 <title>Rukma oil</title>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Sail&display=swap" rel="stylesheet">
@@ -16,40 +16,42 @@
 </head>
 <body>
   <header>
-    
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">
+        <img src="./img/logo-demo.jpg" width="30" height="30" class="d-inline-block align-top" alt=""><i>Rukma</i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#our-story">Our story</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
-  <div class="container-fluid m-0 p-0">
-<div class="wrapper_outer">
-	<div class="wrapper">
+  
+  <div class="container-fluid m-0 p-0 outer-box">
+    
+<!-- <div class="wrapper_outer">
+	<div class="wrapper"> -->
 
 		<section class="parallax_section">
 			<div class="parallax_bg" style="background-image: url(./img/bg.jpg) ;">
-        <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand" href="#">
-            <img src="./img/logo-demo.jpg" width="30" height="30" class="d-inline-block align-top" alt=""><i>Rukma</i></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+       
         <div class="inside-f-parallax">
           <h1>Rukma Oil</h1>
         </div>
       </div>
       </section>
-      <section class="our-story">
+      <section class="our-story" id="our-story">
       <div class="content row "style='margin:auto'>
         <div class="col-md-6">
           Our Story
@@ -63,15 +65,152 @@
       </div>
 		</section>
 
-		<section class="parallax_section">
-			<div class="parallax_b" style="background:red"></div>
-      hello
-		</section>	
+    <section class="section pb-3 " id="pricing">
+      <div class="container">
+  
+          <div class="row mb-3">
+              <div class="col-lg-12">
+                  <div class="title-box text-center mt-3">
+                      <h3 class="title-heading ">Best Pricing Package </h3>
+                      <p class="text-muted f-17 ">Vivamus ac nulla ultrices laoreet neque mollis mi morbi
+                          elementum mauris
+                          sit amet arcu <br> fringilla auctor In eleifend maximus nisi sed vulputate.</p>
+  
+                      <img src="images/home-border.png" height="15" class="mt-3" alt="">
+                  </div>
+              </div>
+          </div>
+  
+  
+          <div class="row  pt-4">
+              <div class="col-md-6 col-lg-4">
+                  <div class="pricing-box ">
+                      <i class="mdi mdi-account h1"></i>
+                      <h4 class="f-20">Starter</h4>
+  
+                      <div class=" pt-2">
+                          <p class="mb-2 f-18">Features</p>
+  
+                          <p class="mb-2"><i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b>Unlimited</b>
+                              Target Audience</p>
+                          <p class="mb-2"><i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b>1</b>
+                              User Account</p>
+                          <p class="mb-2"><i class="mdi mdi-close-circle text-danger f-18 mr-2"></i><b>100+</b>
+                              Video Tuts</p>
+                          <p class="mb-2"><i class="mdi mdi-close-circle text-danger f-18 mr-2"></i><b>Public</b>
+                              Displays
+                          </p>
+                      </div>
+  
+                      <p class=" pt-2 text-muted">Semper urna veal tempus pharetra elit habisse platea dictumst.
+                      </p>
+                      <div class="pricing-plan  pt-2">
+                          <h4 class="text-muted"><s> $9.99</s> <span class="plan pl-3 text-dark">$8.99 </span></h4>
+                          <p class="text-muted mb-0">Per Month</p>
+                      </div>
+  
+  
+                      <div class=" pt-3">
+                          <a href="" class="btn btn-outline-primary btn-rounded">Purchase Now</a>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col-md-6 col-lg-4">
+                  <div class="pricing-box ">
+                      <div class="pricing-badge">
+                          <span class="badge">Featured</span>
+                      </div>
+  
+                      <i class="mdi mdi-account-multiple h1 text-primary"></i>
+                      <h4 class="f-20 text-primary">Personal</h4>
+  
+  
+                      <div class=" pt-2">
+                          <p class="mb-2 f-18">Features</p>
+  
+                          <p class="mb-2"><i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b>Unlimited</b>
+                              Target Audience</p>
+                          <p class="mb-2"><i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b>1</b>
+                              User Account</p>
+                          <p class="mb-2"><i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b>100+</b>
+                              Video Tuts</p>
+                          <p class="mb-2"><i class="mdi mdi-close-circle text-danger f-18 mr-2"></i><b>Public</b>
+                              Displays
+                          </p>
+                      </div>
+  
+                      <p class=" pt-2 text-muted">Semper urna veal tempus pharetra elit habisse platea dictumst.
+                      </p>
+  
+                      <div class="pricing-plan  pt-2">
+                          <h4 class="text-muted"><s> $19.99</s> <span class="plan pl-3 text-dark">$18.99 </span></h4>
+                          <p class="text-muted mb-0">Per Month</p>
+                      </div>
+  
+                      <div class=" pt-3">
+                          <a href="" class="btn btn-outline-warning btn-rounded">Purchase Now</a>
+                      </div>
+                  </div>
+              </div>
+  
+              <div class="col-md-6 col-lg-4">
+                  <div class="pricing-box ">
+                      <i class="mdi mdi-account-multiple-plus h1"></i>
+                      <h4 class="f-20">Ultimate</h4>
+  
+  
+                      <div class=" pt-2">
+                          <p class="mb-2 f-18">Features</p>
+  
+                          <p class="mb-2"><i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b>Unlimited</b>
+                              Target Audience</p>
+                          <p class="mb-2"><i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b>1</b>
+                              User Account</p>
+                          <p class="mb-2"><i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b>100+</b>
+                              Video Tuts</p>
+                          <p class="mb-2"><i class="mdi mdi-checkbox-marked-circle text-success f-18 mr-2"></i><b>Public</b>
+                              Displays
+                          </p>
+                      </div>
+  
+                      <p class=" pt-2 text-muted">Semper urna veal tempus pharetra elit habisse platea dictumst.
+                      </p>
+  
+                      <div class="pricing-plan  pt-2">
+                          <h4 class="text-muted"><s> $29.99</s> <span class="plan pl-3 text-dark">$28.99 </span></h4>
+                          <p class="text-muted mb-0">Per Month</p>
+                      </div>
+  
+                      <div class=" pt-3">
+                          <a href="" class="btn btn-outline-success btn-rounded">Purchase Now</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
 
-	</div>
-</div>
+  <section class="container-fluid" id="about">
+    <div class="about-container">
+        <h1>About Us</h1>
+        <p>
+          Every mother has a secret home remedy that 
+          actually works. Danthapala oil is such a sacred remedy that 
+          help us to fight dandruff and other skin conditions caused by 
+          fungal infection. People have been using this herbal remedy for
+           countless centuries and we want the healing to reach across the ages. A thought that guides everything we create. From that thought, RUKMA products was born.
+        </p>
+    </div>
 
-</div>
+  </section>
+  <a href="#top">
+  <div class="top-btn">
+    <i class="fa-solid fa-arrow-up fa-xl"></i>
+  </div>
+  </a>
+
+
 </div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
