@@ -104,6 +104,7 @@
     background-color:#E3E4E8;
     margin-top: 20px;
     padding: 0;
+    margin-bottom: 10px;
 }
 .img-size{
     width: 100%;
@@ -118,10 +119,6 @@
   .mb-2, .my-2 {
       margin-bottom: .5rem!important;
   }
-  p {
-    
-  }
-
 
   #about{
     /* height: fit-content; */
@@ -131,16 +128,14 @@
     
     height: 100vh;
     position: relative;
+    text-align: center;
   }
   .about-container p{
     font-size: 20px;
   }
 .about-container{
-    width: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    position: absolute;
+    text-align: center;
+    
 
 
 }
@@ -191,9 +186,27 @@
     .pricing-box{
         max-width: 300px;
         margin: auto;
+        margin-bottom: 10px;
     }
+#about{
+
+
+}
     .about-container{
         /* max-width: 300px; */
         min-width: 300px;
+       position: relative;
+
+
     }
+}
+@media screen and (min-width:995px) {
+    .about-container{
+        width: 50%;
+     top: 50%;
+    left: 50%; 
+     transform: translate(-50%,-50%);
+    position: absolute; 
+    }
+    
 }
