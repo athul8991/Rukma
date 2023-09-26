@@ -89,6 +89,9 @@
     background-size: cover;
     background-attachment:fixed ;
 }
+.img-pricing-1{
+    text-align: left;
+}
 
 #pricing{
     background: #faf7f7;
