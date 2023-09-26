@@ -19,12 +19,12 @@
     position: relative;
 } */
 .nav-link{
-    color:rgb(3, 165, 27);
+    color:rgb(38, 32, 32);
     font-weight: 900;
     transition: color 1s;
 }
 .nav-link:hover{
-    color:rgb(255, 255, 255);
+    color:rgb(69, 69, 210);
 }
 .parallax_bg{
     height: 100vh;
@@ -96,13 +96,14 @@
 }
 
 .pricing{
-    background: #f3efef;
+    background: #E3E4E8;
     
 
 }
 #pricing{
-    background-color:white;
+    background-color:#E3E4E8;
     margin-top: 20px;
+    padding: 0;
 }
 .img-size{
     width: 100%;
