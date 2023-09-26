@@ -97,49 +97,16 @@
     background: #f3efef;
 
 }
-.pricing-box{
-    background: rgb(255, 255, 255);
-    text-align: center;
-    padding: 10px;
-    /* margin-top: 10px; */
-
+.img-size{
+    width: 100%;
+    
+    
+}
+.pricing-img{
+    text-align: left;
 }
 
-.pricing-box .plan {
-    font-size: 34px;
-    
-  }
-  
-  .pricing-badge {
-    position: absolute;
-    top: 0;
-    z-index: 999;
-    right: 0;
-    width: 100%;
-    display: block;
-    font-size: 15px;
-    padding: 0;
-    overflow: hidden;
-    height: 100px;
-    display: none;
-  }
-  
-  .pricing-badge .badge {
-    float: right;
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-    right: -67px;
-    top: 24px;
-    position: relative;
-    text-align: center;
-    width: 200px;
-    font-size: 13px;
-    margin: 0;
-    padding: 7px 10px;
-    font-weight: 500;
-    color: #ffffff;
-    background: #fb7179;
-  }
+
   .mb-2, .my-2 {
       margin-bottom: .5rem!important;
   }
