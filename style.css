@@ -55,7 +55,9 @@
 }
 .our-story{
     padding: 10px;
+    
 }
+
 
 .content{
     width: 100%;
@@ -73,7 +75,7 @@
 }
 .content p{
     font-weight: 100;
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(6, 69, 6);
     width: 90%;
     margin: auto;
@@ -93,9 +95,14 @@
     text-align: left;
 }
 
-#pricing{
+.pricing{
     background: #f3efef;
+    
 
+}
+#pricing{
+    background-color:white;
+    margin-top: 20px;
 }
 .img-size{
     width: 100%;
@@ -111,7 +118,7 @@
       margin-bottom: .5rem!important;
   }
   p {
-      line-height: 1.7;
+    
   }
 
 
@@ -120,7 +127,7 @@
     background: rgb(255, 255, 255);
     text-align: center;
     padding: 30px;
-    line-height: 4;
+    
     height: 100vh;
     position: relative;
   }
