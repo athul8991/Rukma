@@ -176,7 +176,8 @@
     position: absolute;
     padding: 10px;
     /* color: rgb(206, 7, 7); */
-    background-color: rgba(255, 255, 255,.7);
+    background-color: #f3f4fa;
+    opacity: .8;
     color: black;
   }
   .form-group input{
@@ -188,12 +189,35 @@
     color: black;
   }
   .form-control:focus{
-    color:red;
-    outline: 1px solid red;
+    color:black;
+    outline: 1px solid black;
     border: 0px;
     box-shadow: none;
 
   }
+  .form-control{
+    outline: 1px solid black;
+  }
+.btn-outline-dark{
+    color: black;
+    font-weight: bold;
+}
+.Register{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    margin: auto;
+}
+.forgot{
+    color:green;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.forgot:hover{
+    text-decoration: none;
+    color: black;
+}
 
   /* @Media Query */
 
