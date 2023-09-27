@@ -162,12 +162,12 @@
 
   #sign-in{
     height: 100vh;
-    background: rgb(247, 247, 247);
+    background-image: url('https://athul8991.github.io/Rukma/img/background.jpg');
     position: relative;
 
   }
 
-  .loginConainer{
+  .loginContainer{
     width: 95%;
     /* background: rgb(247, 247, 247); */
     top:50%;
@@ -175,6 +175,24 @@
     transform: translate(-50%,-50%);
     position: absolute;
     padding: 10px;
+    /* color: rgb(206, 7, 7); */
+    background-color: rgba(255, 255, 255,.7);
+    color: black;
+  }
+.loginContainer{
+}
+  .form-group input{
+    background: none;
+    color: black;
+  }
+  .form-group input::placeholder{
+    color: black;
+  }
+  .form-control:focus{
+    color:red;
+    font-size: 20px;
+    outline: 0px solid red;
+    border: 0px;
   }
 
   /* @Media Query */
